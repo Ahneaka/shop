@@ -10,15 +10,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/Styles/admin.css" />
     <title>Pretty</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-light bg-light">
       <div class="container-fluid">
         <img src="/Assests/img/wave.jfif" width="100px" height="100px" />
         <a class="navbar-brand" href="#">WELCOME TO SUPWAVE</a>
-        <button
+        <button 
           class="navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
@@ -45,21 +46,19 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
              
-              <a class="d-none d-md-inline navbar-brand" href="index.html"
+              <a class="d-none d-md-inline navbar-brand" href="/index.html"
               >Home</a
             >
-            <a class="d-none d-md-inline navbar-brand" href="products.html"
+            <a class="d-none d-md-inline navbar-brand" href="../HTML/products.html"
               >Products</a
             >
-            <a class="d-none d-md-inline navbar-brand" href="admin.html"
+            <a class="d-none d-md-inline navbar-brand" href="./admin.html"
               >Admin</a
             >
-            <a class="d-none d-md-inline navbar-brand" href="checkout.html"
+            <a class="d-none d-md-inline navbar-brand" href="./checkout.html"
               >Checkout</a
             >
-            <a class="d-none d-md-inline navbar-brand" href="contact.html"
-              >Contact</a
-            >
+            
 
             </ul>
             <form class="d-flex">
@@ -77,8 +76,35 @@
         </div>
       </div>
     </nav>
+   
+    <div data-aos="zoom-in">
+    <table class="table caption-top">
+      <caption>SUPWAVE-SURFBOARDS</caption>
+      <!-- <p id="time"></p>
+      <button onclick="document.getElementById('time').innerHTML=Date()">Time</button> -->
 
-    
+
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+          <th scope="col">Price</th>
+
+          <!-- html
+          <th scope="col">Edit</th>
+          <th scope="col">Delete</th>
+
+          js
+          <td><a href="#" class="btn btn-info-edit">Edit</a></td>
+          <td><a href="#" class="btn btn-dark-delete">Delete</a></td> -->
+        </tr> 
+      </thead>
+      <tbody id="table">
+       
+      </tbody>
+    </table>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -96,5 +122,10 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> 
+    <script src="/admin.js"></script>
   </body>
 </html>
