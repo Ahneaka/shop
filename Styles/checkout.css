@@ -1,1 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pirata+One&family=Source+Code+Pro:ital,wght@0,200;1,400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: solid 2px black;
+  height: auto;
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  background: url(../Assests/img/wave.gif) !important;
+  background-size: cover;
+  color: black;
+  padding: 20px;
+  margin-top: 40%;
+}
+
+.btn-edit {
+  background-color: grey;
+}
+
+.btn-delete {
+  background-color: rgb(17, 128, 165);
+}

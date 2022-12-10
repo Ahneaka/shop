@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pirata+One&family=Source+Code+Pro:ital,wght@0,200;1,400&display=swap");
 
-
 .cards img {
-
-width: auto;
+  width: auto;
 }
 
-.container #cards div .card img{
-  height: 300px; 
+.container #cards div .card img {
+  height: 300px;
 }
 
+footer {
+  background: url(../Assests/img/wave.gif) !important;
+  background-size: cover;
+  color: black;
+  padding: 20px;
+}

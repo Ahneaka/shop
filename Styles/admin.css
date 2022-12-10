@@ -1,0 +1,24 @@
+.modal-backdrop {
+  position: relative;
+}
+
+/* #form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.btn-edit {
+  background-color: grey;
+}
+
+.btn-delete {
+  background-color: rgb(17, 128, 165);
+}
+
+footer {
+  background: url(../Assests/img/wave.gif) !important;
+  background-size: cover;
+  color: black;
+  padding: 20px;
+}
