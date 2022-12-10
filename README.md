@@ -1,5 +1,5 @@
 # shop
-Products add to chcekout
+Products add to checkout
 checkout out has no delete and no edit 
 products in chcekout does not disappear after refresh 
 no filter because it didnt work with my code and I believe I took it out 
